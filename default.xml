@@ -380,5 +380,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-4.7" name="Andromadus/android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7" revision="jellybean" />
   <project path="vendor/cm" name="Mustaavalkosta/android_vendor_cm" remote="private" revision="jb-mv" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx" revision="jb-devel" />
+  <project path="vendor/pizza" name="Mustaavalkosta/android_vendor_pizza" revision="jb-mv" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx" revision="jb-devel" />
 </manifest>
