@@ -38,6 +38,7 @@
 
   <!-- Mustaavalkosta -->
   <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" revision="jb-mv" />
+  <project path="local_manifest" name="Mustaavalkosta/android" revision="cm-10.1" />
   <project path="packages/apps/Camera" name="Mustaavalkosta/android_packages_apps_Camera" revision="jb-mv" />
 
 </manifest>
