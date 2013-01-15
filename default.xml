@@ -99,7 +99,6 @@
   <project path="external/harfbuzz" name="CyanogenMod/android_external_harfbuzz" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" />
   <project path="external/hyphenation" name="CyanogenMod/android_external_hyphenation" />
-  <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" />
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" />
   <project path="external/ipsec-tools" name="CyanogenMod/android_external_ipsec-tools" />
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" />
@@ -360,12 +359,13 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
-  <!-- Ace specific repos -->
+  <!-- Custom repos -->
   <project path="android" name="Mustaavalkosta/android" revision="jb-mv" />
   <project path="device/common" name="Andromadus/android_device_common" revision="cm10.1" />
   <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="private" revision="jb-mv" />
   <project path="device/htc/common" name="Andromadus/android_device_htc_common" remote="github" revision="jb" />
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" revision="jb-mv" />
+  <project path="external/icu4c" name="platform/external/icu4c/" remote="aosp" revision="master" />
   <project path="frameworks/av" name="Andromadus/android_frameworks_av" revision="cm10.1" />
   <project path="frameworks/base" name="Mustaavalkosta/android_frameworks_base" revision="jb-mv" />
   <project path="frameworks/native" name="Andromadus/android_frameworks_native" revision="cm10.1" />
