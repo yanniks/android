@@ -362,7 +362,7 @@
   <!-- Custom repos -->
   <project path="android" name="Mustaavalkosta/android" revision="jb-mv" />
   <project path="device/common" name="Andromadus/android_device_common" revision="cm10.1" />
-  <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="private" revision="jb-mv" />
+  <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" revision="jb-mv" />
   <project path="device/htc/common" name="Andromadus/android_device_htc_common" remote="github" revision="jb" />
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" revision="jb-mv" />
   <project path="external/icu4c" name="platform/external/icu4c/" remote="aosp" revision="master" />
@@ -379,7 +379,7 @@
   <project path="packages/apps/Camera" name="Mustaavalkosta/android_packages_apps_Camera" revision="jb-mv" />
   <project path="packages/apps/Settings" name="Mustaavalkosta/android_packages_apps_Settings" revision="jb-mv" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-4.7" name="Andromadus/android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7" revision="jellybean" />
-  <project path="vendor/cm" name="Mustaavalkosta/android_vendor_cm" remote="private" revision="jb-mv" />
+  <project path="vendor/cm" name="Mustaavalkosta/android_vendor_cm" revision="jb-mv" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx" revision="jb-devel" />
   <project path="vendor/pizza" name="Mustaavalkosta/android_vendor_pizza" revision="jb-mv" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx" revision="jb-devel" />
