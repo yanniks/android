@@ -7,7 +7,7 @@ Getting Started
 To get started with Android/Pizzabean, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using the Pizzabean/CyanogenMod trees, use a command like this:
 
     repo init -u git://github.com/Mustaavalkosta/android.git -b jb-mv
 
