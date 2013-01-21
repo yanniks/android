@@ -14,7 +14,6 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-  <remove-project name="CyanogenMod/android_vendor_cm" />
 
   <!-- Andromadus -->
   <project path="device/common" name="Andromadus/android_device_common" revision="cm10.1" />
@@ -43,6 +42,5 @@
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" revision="jb-mv" />
   <project path="local_manifest" name="Mustaavalkosta/android" revision="cm-10.1" />
   <project path="packages/apps/Camera" name="Mustaavalkosta/android_packages_apps_Camera" revision="jb-mv" />
-  <project path="vendor/cm" name="Mustaavalkosta/android_vendor_cm" revision="cm-10.1" />
 
 </manifest>
