@@ -13,6 +13,9 @@
 
   <remote  name="cfx"
            fetch="https://bitbucket.org/codefirex/" />
+
+  <remote  name="linaro"
+           fetch="http://android.git.linaro.org/git-ro/platform/" />
        
   <default revision="refs/heads/cm-10.1"
            remote="github"
@@ -381,6 +384,8 @@
   <project path="packages/apps/Camera" name="Mustaavalkosta/android_packages_apps_Camera" revision="jb-mv" />
   <project path="packages/apps/Settings" name="Mustaavalkosta/android_packages_apps_Settings" revision="jb-mv" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="linaro" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="linaro" revision="master" />
   <project path="vendor/cm" name="Mustaavalkosta/android_vendor_cm" revision="jb-mv" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx" revision="jb-devel" />
   <project path="vendor/pizza" name="Mustaavalkosta/android_vendor_pizza" revision="jb-mv" />
