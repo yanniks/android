@@ -272,6 +272,7 @@
   <project path="libcore" name="Mustaavalkosta/android_libcore" revision="jb-mv" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="jb-mr1-release" />
+  <project path="packages/apps/0xbench" "platform/packages/apps/0xbench" remote="linaro" revision="linaro-master" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
