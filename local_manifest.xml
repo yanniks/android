@@ -14,6 +14,7 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <remove-project name="platform/prebuilts/misc" />
 
   <!-- Andromadus -->
   <project path="device/common" name="Andromadus/android_device_common" revision="cm10.1" />
@@ -31,6 +32,7 @@
 
   <!-- CodeFireX -->
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
+  <project path="prebuilts/misc" name="prebuilts_misc" remote="cfx" revision="jb-devel" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx" revision="jb-devel" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx" revision="jb-devel" />
 
