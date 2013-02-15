@@ -31,7 +31,7 @@
   <project path="bionic" name="Mustaavalkosta/android_bionic" revision="jb-mv" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
-  <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <project path="cts" name="platform/cts" remote="aosp" revision="jb-mr1-release" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="Andromadus/android_device_common" revision="cm10.1" />
