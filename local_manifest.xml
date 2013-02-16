@@ -12,7 +12,6 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
-  <remove-project name="CyanogenMod/android_packages_apps_Camera" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="platform/prebuilts/misc" />
 
@@ -38,7 +37,6 @@
   <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" revision="cm-10.1" />
   <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" revision="cm-10.1" />
   <project path="local_manifest" name="Mustaavalkosta/android" revision="cm-10.1" />
-  <project path="packages/apps/Camera" name="Mustaavalkosta/android_packages_apps_Camera" revision="cm-10.1" />
   <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="jb-mv" />
   <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" revision="cm-10.1" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" />
