@@ -376,11 +376,7 @@
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
-<<<<<<< HEAD
   <project path="system/security" name="Mustaavalkosta/android_system_security" revision="jb-mv" />
-=======
-  <project path="system/security" name="CyanogenMod/android_system_security" />
->>>>>>> 26f0a2fc366443bd5552dde4fdacefa07d0ca63d
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
