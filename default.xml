@@ -122,8 +122,11 @@
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" />
   <project path="external/junit" name="CyanogenMod/android_external_junit" />
   <project path="external/kernel-headers" name="CyanogenMod/android_external_kernel-headers" />
-  <project name="koush/Superuser" path="external/koush/Superuser" revision="master" />
-  <project name="koush/Widgets" path="external/koush/Widgets" revision="master" />
+
+  <!-- before the next M release, fork this. -->
+  <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
+  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
+
   <project path="external/libcap-ng" name="CyanogenMod/android_external_libcap-ng" />
   <project path="external/libffi" name="CyanogenMod/android_external_libffi" />
   <project path="external/libgsm" name="CyanogenMod/android_external_libgsm" />
@@ -373,7 +376,11 @@
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
+<<<<<<< HEAD
   <project path="system/security" name="Mustaavalkosta/android_system_security" revision="jb-mv" />
+=======
+  <project path="system/security" name="CyanogenMod/android_system_security" />
+>>>>>>> 26f0a2fc366443bd5552dde4fdacefa07d0ca63d
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
