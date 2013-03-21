@@ -34,7 +34,7 @@
   <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" revision="cm-10.1" />
   <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" revision="cm-10.1" />
   <project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" revision="cm-10.1" />
-  <project path="kernel/htc/KangBanged-7x30" name="Mustaavalkosta/KangBanged-7x30" revision="kb-stable" />
+  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" revision="cm-10.1" />
   <project path="local_manifest" name="Mustaavalkosta/android" revision="cm-10.1" />
   <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="jb-mv" />
   <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" revision="cm-10.1" />
