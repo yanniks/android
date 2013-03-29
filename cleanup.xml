@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- remove CM more repos -->
+  <remove-project name="CyanogenMod/android_device_generic_goldfish" />
+  <remove-project name="CyanogenMod/android_device_generic_mips" />
+  <remove-project name="CyanogenMod/android_device_generic_x86" />
+  <remove-project name="CyanogenMod/android_device_google_accessory_arduino" />
+  <remove-project name="CyanogenMod/android_device_google_accessory_demokit" />
+  <remove-project name="CyanogenMod/android_hardware_invensense" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_msm8960" />
+  <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
+  <remove-project name="CyanogenMod/android_hardware_ti_omap3" />
+  <remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
+  <remove-project name="CyanogenMod/android_hardware_ti_wlan" />
+  <remove-project name="CyanogenMod/android_hardware_ti_wpan" />
+  <remove-project name="CyanogenMod/android_packages_apps_SpareParts" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+  <remove-project name="platform/prebuilts/eclipse" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
+  <remove-project name="platform/prebuilts/qemu-kernel" />
+  <remove-project name="platform/tools/motodev" />
+
+</manifest>
