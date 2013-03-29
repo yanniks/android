@@ -28,7 +28,6 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
-  <remove-project name="platform/prebuilts/qemu-kernel" />
   <remove-project name="platform/tools/motodev" />
 
 </manifest>
