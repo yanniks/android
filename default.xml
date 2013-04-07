@@ -26,7 +26,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="yanniks/android" revision="jb-mv" />
+  <project path="android" name="yanniks/android" revision="cm-10.1" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="Mustaavalkosta/android_bionic" revision="jb-mv" />
   <project path="bootable/diskinstaller" name="yanniks/android_packages_apps_CMUpdater" />
