@@ -125,7 +125,7 @@
   <project path="external/kernel-headers" name="CyanogenMod/android_external_kernel-headers" />
 
   <!-- before the next M release, fork this. -->
-  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" />
+  <project path="external/koush/Superuser" name="yanniks/Superuser" revision="master" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" />
 
   <project path="external/libcap-ng" name="CyanogenMod/android_external_libcap-ng" />
@@ -311,7 +311,7 @@
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" revision="cm-10.1" />
+  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
