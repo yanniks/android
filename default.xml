@@ -22,7 +22,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="CyanogenMod/android_build" revision="cm-10.1">
+  <project path="build" name="yanniks/android_build" revision="cm-10.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
