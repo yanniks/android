@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="CM10.1 für HTC Desire HD : Misc Android stuff" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>CM10.1 für HTC Desire HD</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/yanniks/android">View on GitHub</a>
+
+          <h1 id="project_title">CM10.1 für HTC Desire HD</h1>
+          <h2 id="project_tagline">Misc Android stuff</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/yanniks/android/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/yanniks/android/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Die alternative Android ROM CyanogenMod ist aufgrund der vielen Erweiterungen und Möglichkeiten bei den Anwendern sehr beliebt. Leider wird seit Android 4 das Desire HD nicht mehr unterstützt. Daher biete ich euch hier ein Tutorial an, wie ihr eure eigene CyanogenMod Version für das Desire HD auf Basis von Android 4.2.2 erstellen könnt.</p>
+
+<p>Voraussetzungen:</p>
+
+<p>Ubuntu 12.10 64 Bit (Mac OS X funktioniert leider nicht, mit VMware Fusion könnt ihr VMs erstellen)
+mindestens 50 GB Platz auf der Festplatte, mehr ist gut
+Tutorial:</p>
+
+<p>Zuerst öffnet den Terminal, indem ihr auf der Dash-Startseite (Feld links oben) nach “Terminal” sucht und öffnet
+Gebt nun die folgenden Befehle ein:
+sudo apt-get install openjdk-6-jdk git-core python \
+  gnupg flex bison gperf build-essential \
+  zip curl zlib1g-dev libc6-dev lib32ncurses5-dev ia32-libs \
+  x11proto-core-dev libx11-dev lib32readline-gplv2-dev lib32z-dev \
+  libgl1-mesa-dev g++-multilib mingw32 tofrodos python-markdown \
+  libxml2-utils xsltproc libx11-dev:i386 lzop \
+  git gnupg flex bison gperf build-essential \
+  zip curl libc6-dev libncurses5-dev x11proto-core-dev \
+  libx11-dev libreadline6-dev libgl1-mesa-glx \
+  libgl1-mesa-dev g++-multilib mingw32 tofrodos \
+  python-markdown libxml2-utils xsltproc zlib1g-dev
+Ladet anschließend von dieser Website das Android SDK für Linux runter: <a href="http://developer.android.com/sdk/index.html">http://developer.android.com/sdk/index.html</a>
+Gebt nun im Terminal den folgenden Befehl ein:
+cd &amp;&amp; nano .bashrc
+In dem anschließenden Fenster geht mit dem Pfeil nach unten bis zur untersten Stelle und fügt nun folgende Zeilen ein, danach beendet das Programm mit Steuerung + O, Enter und Steuerung +X:</p>
+
+<h1>Android tools</h1>
+
+<p>export PATH=${PATH}:~/android-sdk/tools
+export PATH=${PATH}:~/android-sdk/platform-tools
+export PATH=${PATH}:~/bin
+Gebt nun nano .profile ein und macht nun das Selbe wie in Schritt 5, fügt stattdessen aber folgende Zeile ein:
+PATH="$HOME/android-sdk-Verzeichnis/tools:$HOME/android-sdk-Verzeichnis/platform-tools:$PATH"
+Ladet nun die Updates in dem Fenster nach dem Eintippen von “android” herunter.
+Als nächstes sind mal wieder einige Kommandos im Terminal nötig:
+mkdir ~/bin
+PATH=~/bin:$PATH
+curl <a href="https://dl-ssl.google.com/dl/googlesource/git-repo/repo">https://dl-ssl.google.com/dl/googlesource/git-repo/repo</a> &gt; ~/bin/repo
+chmod a+x ~/bin/repo
+mkdir cm10
+cd cm10/
+repo init -u git://github.com/yanniks/android.git -b cm-10.1
+Beantwortet nun die Fragen, danach könnt ihr schon fast mit dem Erstellen der ROM beginnen:
+repo sync
+cd vendor/cm/
+./get-prebuilts
+cd ../../
+. build/envsetup.sh
+lunch cm_ace-userdebug
+mka bacon
+In dem Ordner out/target/product/ace findet ihr anschließend die fertige Build, die ihr auf euer Gerät kopieren und anschließend nutzen könnt.
+Build aktualisieren:</p>
+
+<p>Wollt ihr eure Build aktualisieren wollt, gebt einfach hintereinander folgende Kommandos ein, danach findet ihr wieder im oben genannten Ordner eine neue Build:</p>
+
+<p>cd cm10/
+rm out/target/product/ace/system/build.prop
+rm out/target/product/ace/cm-*
+repo sync
+cd vendor/cm/
+./get-prebuilts
+cd ../../
+. build/envsetup.sh
+lunch cm_ace-userdebug
+mka bacon</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">CM10.1 für HTC Desire HD maintained by <a href="https://github.com/yanniks">yanniks</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
