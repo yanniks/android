@@ -40,6 +40,7 @@
   <remove-project name="CyanogenMod/android_libcore" />
   <remove-project name="CyanogenMod/android_packages_apps_Camera" />
   <remove-project name="platform/prebuilts/misc" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_system_security" />
 
@@ -49,6 +50,8 @@
 
   <project path="local_manifest" name="Mustaavalkosta/android" revision="jb-mv" />
   <project path="bionic" name="Mustaavalkosta/android_bionic" revision="jb-mv" />
+  <project path="packages/apps/CMUpdater" name="yanniks/android_packages_apps_CMUpdater" revision="cm-10.1" />
+  <project path="packages/apps/proximitysensor" name="yanniks/android_packages_apps_proximitysensor" revision="cm-10.1" />
   <project path="device/htc/ace" name="yanniks/android_device_htc_ace" revision="cm-10.1" />
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" revision="jb-mv" />
   <project path="external/busybox" name="Mustaavalkosta/android_external_busybox" revision="jb-mv" />
