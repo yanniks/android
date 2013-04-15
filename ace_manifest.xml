@@ -39,6 +39,7 @@
   <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="CyanogenMod/android_libcore" />
   <remove-project name="CyanogenMod/android_packages_apps_Camera" />
+  <remove-project name="CyanogenMod/android_vendor_cm" />
   <remove-project name="platform/prebuilts/misc" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_system_core" />
@@ -92,6 +93,7 @@
   <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="jb-mv" />
   <project path="system/core" name="Mustaavalkosta/android_system_core" revision="jb-mv" />
   <project path="system/security" name="Mustaavalkosta/android_system_security" revision="jb-mv" />
+  <project path="vendor/cm" name="yanniks/android_vendor_cm" revision="cm-10.1" />
   <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" revision="jb-mv" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" />
 </manifest>
