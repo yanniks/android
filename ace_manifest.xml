@@ -90,6 +90,7 @@
   <project path="kernel/htc/RowShow-7x30" name="yanniks/RowShow-7x30" revision="rowshow" />
   <project path="libcore" name="Mustaavalkosta/android_libcore" revision="jb-mv" />
   <project path="packages/apps/Camera" name="Mustaavalkosta/android_packages_apps_Camera" revision="jb-mv" />
+  <project path="packages/apps/FM" name="yanniks/android_packages_apps_FM" revision="cm-10.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="Mustaavalkosta/android_prebuilts_gcc_linux_x86_arm_arm-eabi-4.7" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.7" revision="master" />
   <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="jb-mv" />
