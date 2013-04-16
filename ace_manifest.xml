@@ -50,7 +50,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="local_manifest" name="Mustaavalkosta/android" revision="jb-mv" />
+  <project path="local_manifest" name="yanniks/android" revision="cm-10.1" />
   <project path="bionic" name="Mustaavalkosta/android_bionic" revision="jb-mv" />
   <project path="packages/apps/CMUpdater" name="yanniks/android_packages_apps_CMUpdater" revision="cm-10.1" />
   <project path="packages/apps/proximitysensor" name="yanniks/android_packages_apps_proximitysensor" revision="cm-10.1" />
