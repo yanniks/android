@@ -39,7 +39,6 @@
   <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" revision="jb-mv" />
   <project path="packages/apps/DSPManager" name="yanniks/android_packages_apps_DSPManager" revision="cm-10.1" />  
   <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" revision="cm-10.1" />  
-  <project path="packages/apps/FM" name="yanniks/android_packages_apps_FM" revision="cm-10.1" />
   <project path="vendor/cm" name="yanniks/android_vendor_cm" revision="cm-10.1" />
 
 </manifest>
