@@ -34,8 +34,9 @@
   <project path="vendor/cm" name="yanniks/android_vendor_cm" revision="cm-10.1" />
   <project path="packages/apps/DSPManager" name="yanniks/android_packages_apps_DSPManager" revision="cm-10.1" />
   <project path="packages/apps/CMUpdater" name="yanniks/android_packages_apps_CMUpdater" revision="cm-10.1" />
-  <project path="packages/apps/FM" name="yanniks/android_packages_apps_FM" revision="cm-10.1" />
-  <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" revision="cm-10.1" />
+  <project path="packages/apps/FM" name="yanniks/android_packages_apps_FM" revision="cm-10.1" /> 
+  <project path="packages/apps/proximitysensor" name="yanniks/android_packages_apps_proximitysensor" revision="cm-10.1" />
+ <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" revision="cm-10.1" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" />
 
 </manifest>
