@@ -11,7 +11,6 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="platform/prebuilts/misc" />
 
@@ -19,9 +18,6 @@
   <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" revision="Andro4.2" />
   <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" revision="cm10.1" />
   <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" revision="jb4.2" />
-
-  <!-- CM hack -->
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" revision="jellybean" />
 
   <!-- Mustaavalkosta -->
   <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" revision="cm-10.1" />
