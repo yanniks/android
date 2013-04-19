@@ -5,6 +5,7 @@
            fetch="https://bitbucket.org/codefirex/" />
 
   <!-- remove CM repos -->
+  <remove-project name="CyanogenMod/android_build" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
@@ -22,6 +23,11 @@
   <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" revision="jb4.2" />
 
   <!-- Other stuff -->
+
+  <project path="build" name="yanniks/android_build" revision="cm-10.1">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
   <project path="device/htc/ace" name="yanniks/android_device_htc_ace" revision="cm-10.1" />
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" revision="cm-10.1" />
   <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" revision="cm-10.1" />
