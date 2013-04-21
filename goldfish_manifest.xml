@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="kernel/goldfish" name="yanniks/android_kernel_goldfish" revision="cm-10.1" />
+</manifest>
+
