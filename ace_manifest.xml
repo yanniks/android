@@ -38,7 +38,6 @@
   <project path="kernel/htc/RowShow-7x30" name="yanniks/RowShow-7x30" revision="rowshow" />
   <project path="local_manifest" name="yanniks/android" revision="cm-10.1" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="yanniks/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" revision="master" />
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="yanniks/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" revision="master" />
   <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="jb-mv" />
   <project path="vendor/cm" name="yanniks/android_vendor_cm" revision="cm-10.1" />
   <project path="packages/apps/DSPManager" name="yanniks/android_packages_apps_DSPManager" revision="cm-10.1" />
