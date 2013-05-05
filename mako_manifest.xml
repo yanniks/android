@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- remove CM repos -->
+  <remove-project name="CyanogenMod/android_build" />
+  <remove-project name="CyanogenMod/android_vendor_cm" />
+  <remove-project name="CyanogenMod/android_packages_apps_DSPManager" />
+  <remove-project name="CyanogenMod/android_system_core" />
+  <remove-project name="CyanogenMod/Superuser" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+
+  <!-- Other stuff -->
+
+  <project path="build" name="yanniks/android_build" revision="cm-10.1">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="local_manifest" name="yanniks/android" revision="cm-10.1" />
+  <project path="vendor/cm" name="yanniks/android_vendor_cm" revision="cm-10.1" />
+  <project path="packages/apps/DSPManager" name="yanniks/android_packages_apps_DSPManager" revision="cm-10.1" />
+  <project path="packages/apps/CMUpdater" name="yanniks/android_packages_apps_CMUpdater" revision="cm-10.1" />
+  <project path="system/core" name="yanniks/android_system_core" revision="cm-10.1" />
+  <project path="external/koush/Superuser" name="yanniks/Superuser" revision="master" />
+
+</manifest>
