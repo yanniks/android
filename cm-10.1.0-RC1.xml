@@ -24,7 +24,7 @@
   <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" revision="refs/tags/cm-10.1.0-RC1" />
   <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" revision="refs/tags/cm-10.1.0-RC1" />
   <project path="local_manifest" name="Mustaavalkosta/android" revision="cm-10.1" />
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="Mustaavalkosta/android_toolchain_eabi_linaro" revision="refs/tags/cm-10.1.0-RC1" />
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" revision="refs/tags/cm-10.1.0-RC1" />
   <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="refs/tags/cm-10.1.0-RC1" />
   <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" revision="refs/tags/cm-10.1.0-RC1" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="refs/tags/cm-10.1.0-RC1" />
