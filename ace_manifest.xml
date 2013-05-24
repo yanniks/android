@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="cfx"
-           fetch="https://bitbucket.org/codefirex/" />
-
   <!-- remove CM repos -->
   <remove-project name="CyanogenMod/android_build" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
