@@ -16,11 +16,6 @@
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="platform/prebuilts/misc" />
 
-  <!-- Andromadus -->
-  <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" revision="Andro4.2" />
-  <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" revision="cm10.1" />
-  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" revision="jb4.2" />
-
   <!-- Other stuff -->
 
   <project path="build" name="yanniks/android_build" revision="cm-10.1-ace">
@@ -33,6 +28,9 @@
   <project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" revision="cm-10.1" />
   <project path="local_manifest" name="yanniks/android" revision="cm-10.1" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="yanniks/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" revision="master" />
+  <project path="hardware/qcom/audio" name="Mustaavalkosta/android_hardware_qcom_audio" revision="cm-10.1" />
+  <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" revision="cm-10.1" />
+  <project path="hardware/qcom/media" name="Mustaavalkosta/android_hardware_qcom_media" revision="cm-10.1" />
   <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="jb-mv" />
   <project path="vendor/cm" name="yanniks/android_vendor_cm" revision="cm-10.1" />
   <project path="packages/apps/DSPManager" name="yanniks/android_packages_apps_DSPManager" revision="cm-10.1" />
