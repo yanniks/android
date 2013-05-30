@@ -4,6 +4,7 @@
   <!-- remove CM repos -->
   <remove-project name="CyanogenMod/android_packages_apps_DSPManager" />
   <remove-project name="CyanogenMod/android_system_core" />
+  <remove-project name="CyanogenMod/android_packages_apps_Browser" />
   <remove-project name="CyanogenMod/Superuser" />
   <remove-project name="CyanogenMod/android_build" />
 
