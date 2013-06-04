@@ -37,7 +37,6 @@
   <project path="packages/apps/CMUpdater" name="yanniks/android_packages_apps_CMUpdater" revision="cm-10.1" />
   <project path="packages/apps/proximitysensor" name="yanniks/android_packages_apps_proximitysensor" revision="cm-10.1" />
   <project path="system/core" name="yanniks/android_system_core" revision="cm-10.1" />
-  <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" revision="cm-10.1" />
   <project path="external/koush/Superuser" name="yanniks/Superuser" revision="master" />
   <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" revision="cm-10.1" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" />
