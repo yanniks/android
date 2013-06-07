@@ -22,7 +22,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" revision="cm-10.1" />
+  <project path="device/htc/msm7x30-common" name="yanniks/android_device_htc_msm7x30-common" revision="cm-10.1" />
   <project path="frameworks/av" name="yanniks/android_frameworks_av" revision="cm-10.1" />
   <project path="frameworks/native" name="yanniks/android_frameworks_native" revision="cm-10.1" />
   <project path="frameworks/opt/telephony" name="yanniks/android_frameworks_opt_telephony" revision="cm-10.1" />
