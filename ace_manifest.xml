@@ -12,4 +12,5 @@
   <project path="local_manifest" name="pa-ace/android" revision="jellybean-legacy" remote="github" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-linaro" remote="linaro" revision="master" />
   <project path="vendor/pa" name="pa-ace/android_vendor_pa" revision="jellybean" remote="github" />
+  <project path="device/htc/ace" name="pa-ace/android_device_htc_ace" revision="jellybean" remote="github" />
 </manifest>
