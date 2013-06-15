@@ -27,7 +27,7 @@
   <project path="hardware/qcom/media" name="Mustaavalkosta/android_hardware_qcom_media" revision="cm-10.1" remote="github" />
   <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="cm-10.1" remote="github" />
   <project path="kernel/htc/RowShow-7x30" name="yanniks/RowShow-7x30" revision="rowshow" remote="github" />
-  <project path="vendor/pa" name="yanniks/android_vendor_pa" revision="jellybean" remote="github" />
+  <project path="vendor/pa" name="pa-ace/android_vendor_pa" revision="jellybean" remote="github" />
   <project path="device/htc/ace" name="pa-ace/android_device_htc_ace" revision="jellybean" remote="github" />
   <project path="vendor/htc/ace" name="pa-ace/android_vendor_htc_ace" revision="cm-10.1" remote="github" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" remote="github" />
