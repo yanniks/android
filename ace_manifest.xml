@@ -26,7 +26,7 @@
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" revision="cm-10.1" remote="github" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" revision="cm-10.1" remote="github" />
-  <project path="hardware/qcom/media" name="Mustaavalkosta/android_hardware_qcom_media" revision="cm-10.1" remote="github" />
+  <project path="hardware/qcom/media" name="yanniks/android_hardware_qcom_media" revision="cm-10.1" remote="github" />
   <project path="prebuilts/misc" name="yanniks/android_prebuilts_misc" revision="cm-10.1" remote="github" />
   <project path="kernel/htc/RowShow-7x30" name="pa-ace/RowShow-7x30" revision="rowshow" remote="github" />
   <project path="vendor/pa" name="pa-ace/android_vendor_pa" revision="jellybean" remote="github" />
