@@ -16,8 +16,8 @@
   <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" revision="cm-10.1" remote="gh" />
   <project path="hardware/qcom/media" name="yanniks/android_hardware_qcom_media" revision="cm-10.1" remote="gh" />
   <project path="prebuilts/misc" name="yanniks/android_prebuilts_misc" revision="cm-10.1" remote="gh" />
-  <project path="kernel/htc/RowShow-7x30" name="pa-ace/RowShow-7x30" revision="rowshow" remote="gh" />
-  <project path="device/htc/ace" name="pa-ace/android_device_htc_ace" revision="jellybean" remote="gh" />
+  <project path="kernel/htc/RowShow-7x30" name="yanniks/RowShow-7x30" revision="rowshow" remote="gh" />
+  <project path="device/htc/ace" name="yanniks/android_device_htc_ace" revision="jb2" remote="gh" />
   <project path="vendor/htc/ace" name="pa-ace/android_vendor_htc_ace" revision="cm-10.1" remote="gh" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" remote="gh" />
 
