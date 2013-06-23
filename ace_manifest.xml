@@ -4,34 +4,21 @@
   <remote  name="linaro"
            fetch="git://android.git.linaro.org/" />
 
-  <!-- remove Paranoid repos -->
-  <remove-project name="CyanogenMod/android_packages_apps_Mms" />
-  <remove-project name="ParanoidAndroid/android_vendor_pa" />
+  <!-- remove stock repos -->
   <remove-project name="platform/prebuilts/misc" />
+  <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="android_hardware_qcom_media" />
 
   <!-- Other stuff -->
-
-  <project path="device/htc/msm7x30-common" name="pa-ace/android_device_htc_msm7x30-common" revision="jellybean" remote="github" />
-  <project path="local_manifest" name="pa-ace/android" revision="jellybean-legacy" remote="github" />
+  <project path="device/htc/msm7x30-common" name="pa-ace/android_device_htc_msm7x30-common" revision="jellybean" remote="gh" />
+  <project path="local_manifest" name="pa-ace/android" revision="jb2" remote="gh" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-linaro" remote="linaro" revision="master" />
-  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" revision="cm-10.1" remote="github" />
-  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" revision="cm-10.1" remote="github" />
-  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" revision="cm-10.1" remote="github" />
-  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" revision="cm-10.1" remote="github" />
-  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" revision="cm-10.1" remote="github" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" revision="cm-10.1" remote="github" />
-  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" revision="cm-10.1" remote="github" />
-  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" revision="cm-10.1" remote="github" />
-  <project path="packages/apps/Mms" name="pa-ace/android_packages_apps_Mms" revision="jellybean" remote="github" />
-  <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" revision="cm-10.1" remote="github" />
-  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" revision="cm-10.1" remote="github" />
-  <project path="hardware/qcom/media" name="yanniks/android_hardware_qcom_media" revision="cm-10.1" remote="github" />
-  <project path="prebuilts/misc" name="yanniks/android_prebuilts_misc" revision="cm-10.1" remote="github" />
-  <project path="kernel/htc/RowShow-7x30" name="pa-ace/RowShow-7x30" revision="rowshow" remote="github" />
-  <project path="vendor/pa" name="pa-ace/android_vendor_pa" revision="jellybean" remote="github" />
-  <project path="device/htc/ace" name="pa-ace/android_device_htc_ace" revision="jellybean" remote="github" />
-  <project path="vendor/htc/ace" name="pa-ace/android_vendor_htc_ace" revision="cm-10.1" remote="github" />
-  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" remote="github" />
+  <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" revision="cm-10.1" remote="gh" />
+  <project path="hardware/qcom/media" name="yanniks/android_hardware_qcom_media" revision="cm-10.1" remote="gh" />
+  <project path="prebuilts/misc" name="yanniks/android_prebuilts_misc" revision="cm-10.1" remote="gh" />
+  <project path="kernel/htc/RowShow-7x30" name="pa-ace/RowShow-7x30" revision="rowshow" remote="gh" />
+  <project path="device/htc/ace" name="pa-ace/android_device_htc_ace" revision="jellybean" remote="gh" />
+  <project path="vendor/htc/ace" name="pa-ace/android_vendor_htc_ace" revision="cm-10.1" remote="gh" />
+  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" remote="gh" />
 
 </manifest>
