@@ -7,6 +7,7 @@
   <!-- remove stock repos -->
   <remove-project name="platform/prebuilts/misc" />
   <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="android_vendor_liquid" />
   <remove-project name="android_hardware_qcom_media" />
 
   <!-- Other stuff -->
@@ -17,6 +18,7 @@
   <project path="hardware/qcom/media" name="yanniks/android_hardware_qcom_media" revision="cm-10.1" remote="gh" />
   <project path="prebuilts/misc" name="yanniks/android_prebuilts_misc" revision="cm-10.1" remote="gh" />
   <project path="kernel/htc/RowShow-7x30" name="yanniks/RowShow-7x30" revision="rowshow" remote="gh" />
+  <project path="vendor/liquid" name="yanniks/android_vendor_liquid" revision="jb2" remote="gh" />
   <project path="device/htc/ace" name="yanniks/android_device_htc_ace" revision="jb2" remote="gh" />
   <project path="vendor/htc/ace" name="pa-ace/android_vendor_htc_ace" revision="cm-10.1" remote="gh" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" remote="gh" />
