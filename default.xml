@@ -31,7 +31,7 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="developers/build" name="yanniks/android_developers_build" />
   <project path="developers/demos" name="yanniks/android_developers_demos" />
-  <project path="developers/docs" name="yanniks/androiddevelopers_docs" />
+  <project path="developers/docs" name="yanniks/android_developers_docs" />
   <project path="developers/samples/android" name="yanniks/android_developers_samples_android" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
