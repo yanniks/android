@@ -5,7 +5,6 @@
            fetch="git://android.git.linaro.org/" />
 
   <!-- remove Paranoid repos -->
-  <remove-project name="ParanoidAndroid/android_vendor_pa" />
   <remove-project name="platform/prebuilts/misc" />
 
   <!-- Other stuff -->
