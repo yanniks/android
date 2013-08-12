@@ -12,6 +12,7 @@
   <remove-project name="CyanogenMod/android_vendor_cm" />
   <remove-project name="CyanogenMod/android_packages_apps_DSPManager" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="platform/prebuilts/misc" />
 
   <!-- Other stuff -->
@@ -29,8 +30,8 @@
   <project path="prebuilts/misc" name="yanniks/android_prebuilts_misc" revision="cm-10.1" />
   <project path="vendor/cm" name="yanniks/android_vendor_cm" />
   <project path="packages/apps/DSPManager" name="yanniks/android_packages_apps_DSPManager" revision="cm-10.1" />
-  <project path="packages/apps/CMUpdater" name="yanniks/android_packages_apps_CMUpdater" revision="cm-10.1" />
   <project path="packages/apps/proximitysensor" name="yanniks/android_packages_apps_proximitysensor" revision="cm-10.1" />
+  <project path="packages/apps/Settings" name="yanniks/android_packages_apps_Settings" revision="cm-10.1" />
   <project path="vendor/htc/ace" name="yanniks/android_vendor_htc_ace" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" />
 
