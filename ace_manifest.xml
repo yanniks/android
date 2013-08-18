@@ -21,7 +21,7 @@
 
   <project path="device/htc/msm7x30-common" name="yanniks/android_device_htc_msm7x30-common" />
   <project path="device/htc/ace" name="yanniks/android_device_htc_ace" />
-  <project path="kernel/htc/RowShow-7x30" name="yanniks/RowShow-7x30" revision="rs-dev" />
+  <project path="kernel/htc/htc7x30-3.0" name="Andromadus/htc7x30-3.0" revision="andromadus" />
   <project path="local_manifest" name="yanniks/android" revision="cm-10.2" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="linaro" revision="master" />
   <project path="hardware/qcom/display" name="yanniks/android_hardware_qcom_display" />
