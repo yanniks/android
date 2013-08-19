@@ -3,6 +3,7 @@
   <!-- remove CM repos -->
   <remove-project name="CyanogenMod/android_build" />
   <remove-project name="CyanogenMod/android_vendor_cm" />
+  <remove-project name="CyanogenMod/android_packages_apps_Browser" />
   <remove-project name="CyanogenMod/android_packages_apps_DSPManager" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
 
