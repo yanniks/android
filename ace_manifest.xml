@@ -21,9 +21,9 @@
 
   <project path="device/htc/msm7x30-common" name="yanniks/android_device_htc_msm7x30-common" />
   <project path="device/htc/ace" name="yanniks/android_device_htc_ace" />
-  <project path="kernel/htc/htc7x30-3.0" name="codefireXperiment/kernel_htc_msm7x30" revision="jb-devel-mr2-release" />
+  <project path="kernel/htc/RowShow-7x30" name="yanniks/RowShow-7x30" />
   <project path="local_manifest" name="yanniks/android" revision="cm-10.2" />
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="linaro" revision="master" />
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-linaro" remote="linaro" revision="master" />
   <project path="hardware/qcom/display" name="yanniks/android_hardware_qcom_display" />
   <project path="hardware/qcom/media" name="yanniks/android_hardware_qcom_media" />
   <project path="prebuilts/misc" name="yanniks/android_prebuilts_misc" />
@@ -31,7 +31,7 @@
   <project path="packages/apps/DSPManager" name="yanniks/android_packages_apps_DSPManager" />
   <project path="packages/apps/CMUpdater" name="yanniks/android_packages_apps_CMUpdater" />
   <project path="packages/apps/proximitysensor" name="yanniks/android_packages_apps_proximitysensor" />
-  <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" revision="cm-10.1" />
+  <project path="vendor/htc/ace" name="yanniks/android_vendor_htc_ace" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" />
 
 </manifest>
