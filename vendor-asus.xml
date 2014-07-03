@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="github"
+             fetch="https://github.com/" />
+			 
+ 	<project path="vendor/asus" name="yanniks/proprietary_vendor_asus" remote="github" revision="l-preview" />
+	<project path="vendor/broadcom" name="yanniks/proprietary_vendor_broadcom" remote="github" revision="l-preview" />
+	<project path="vendor/qcom" name="yanniks/proprietary_vendor_qcom" remote="github" revision="l-preview" />
+</manifest>
